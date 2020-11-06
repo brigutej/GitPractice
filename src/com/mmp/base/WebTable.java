@@ -18,6 +18,11 @@ public class WebTable {
 		List rows=(List) webtable.findElements(By.tagName("tr"));
 
 		//System.out.println("Number of rows "+ rows.);
+		
+		//Git Practice
+		
+		System.out.println("git");
+		System.out.println("practice");
 	}
 
 }

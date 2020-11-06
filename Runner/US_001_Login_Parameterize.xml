@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="5">
+  <test thread-count="5" name="TC_MMP_001_login_Valid">
+  <parameter name="url" value="http://96.84.175.78/MMP-Release2-Integrated-Build.6.8.000"></parameter>
+  <parameter name="username" value="ria1"></parameter>
+  <parameter name="password" value="Ria12345"></parameter>
+  
+    <classes>
+      <class name="com.mmp.testcases.US_001_Login_Parameterize"/>
+    </classes>
+    </test>
+   <!--  <test thread-count="5" name="TC_MMP_002_login_Invalid">
+  <parameter name="url" value="http://96.84.175.78/MMP-Release2-Integrated-Build.6.8.000"></parameter>
+  <parameter name="username" value="ria"></parameter>
+  <parameter name="password" value="Ria"></parameter>
+  
+    <classes>
+      <class name="com.mmp.testcases.US_001_Login_Parameterize"/>
+    </classes>
+    </test> -->
+ </suite> <!-- Suite -->

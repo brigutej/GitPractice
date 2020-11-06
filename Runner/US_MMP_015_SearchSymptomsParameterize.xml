@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Search Symptom Fever" verbose= "10">
+  <parameter name="url" value="http://96.84.175.78/MMP-Release2-Integrated-Build.6.8.000"></parameter>
+  <parameter name="username" value="ria1"></parameter>
+  <parameter name="password" value="Ria12345"></parameter>
+  <parameter name="symptom" value="fever"></parameter>
+    <classes>
+  <class name="com.mmp.testcases.US_MMP_015_SearchSymptomsParameterize"></class>
+  </classes>
+  </test> <!-- Test -->
+ <test thread-count="5" name="Search Symptom Cold" verbose= "10">
+   <parameter name="url" value="http://96.84.175.78/MMP-Release2-Integrated-Build.6.8.000"></parameter>
+  <parameter name="username" value="ria1"></parameter>
+  <parameter name="password" value="Ria12345"></parameter>
+  <parameter name="symptom" value="cold"></parameter>
+   <classes>
+  <class name="com.mmp.testcases.US_MMP_015_SearchSymptomsParameterize"></class>
+  </classes>
+  </test> 
+</suite> <!-- Suite -->

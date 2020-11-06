@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [MMP]">
+  <test thread-count="5" name="Seaaarch Symptom4(failed)">
+    <classes>
+      <class name="mmpTestCases.SearchSymptoms4">
+        <methods>
+          <include name="searchSymptoms3"/>
+        </methods>
+      </class> <!-- mmpTestCases.SearchSymptoms4 -->
+    </classes>
+  </test> <!-- Seaaarch Symptom4(failed) -->
+</suite> <!-- Failed suite [MMP] -->

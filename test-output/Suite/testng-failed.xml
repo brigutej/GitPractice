@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Search Symptom Fever(failed)">
+    <parameter name="password" value="Ria12345"/>
+    <parameter name="symptom" value="fever"/>
+    <parameter name="url" value="http://96.84.175.78/MMP-Release2-Integrated-Build.6.8.000"/>
+    <parameter name="username" value="ria1"/>
+    <classes>
+      <class name="com.mmp.testcases.US_MMP_015_SearchSymptomsParameterize">
+        <methods>
+          <include name="TC_001_searchSymptoms" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.mmp.testcases.US_MMP_015_SearchSymptomsParameterize -->
+    </classes>
+  </test> <!-- Search Symptom Fever(failed) -->
+</suite> <!-- Failed suite [Suite] -->
